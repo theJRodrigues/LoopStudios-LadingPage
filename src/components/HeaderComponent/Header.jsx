@@ -19,7 +19,7 @@ const Header = () => {
 
       <div className={styles.textContainer}>
         <div>
-          <h1>IMERSIVE</h1>
+          <h1>IMMERSIVE</h1>
           <h1>EXPERIENCES</h1>
           <h1>THAT</h1>
           <h1>DELIVER</h1>
