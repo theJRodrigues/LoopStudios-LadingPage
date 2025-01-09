@@ -1,8 +1,8 @@
 import React from "react";
-import MenuDesktop from './Menu/MenuDesktop'
-import MenuMobile from './Menu/MenuMobile'
+import MenuDesktop from "./Menu/MenuDesktop/MenuDesktop";
+import MenuMobile from "./Menu/MenuMobile/MenuMobile";
 import styles from './Header.module.css'
-import logo from "../../images/logo.svg";
+import logo from "../../assets/images/logo.svg";
 import { useState } from "react";
 
 const Header = () => {

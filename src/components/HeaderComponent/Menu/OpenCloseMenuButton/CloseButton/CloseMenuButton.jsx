@@ -1,5 +1,5 @@
 import React from 'react'
-import imgElement from '../../../../images/icon-close.svg'
+import imgElement from '../../../../../assets/images/icon-close.svg'
 import styles from './CloseMenu.module.css'
 
 const CloseMenuButton = ({setElementState}) => {

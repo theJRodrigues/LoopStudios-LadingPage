@@ -1,5 +1,5 @@
 import React from 'react'
-import imgElement from '../../../../images/icon-hamburger.svg'
+import imgElement from '../../../../../assets/images/icon-hamburger.svg'
 import styles from './OpenMenu.module.css'
 
 const OpenMenuButton = ({setElementState}) => {
