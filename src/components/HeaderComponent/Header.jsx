@@ -24,7 +24,6 @@ const Header = () => {
           <h1>THAT</h1>
           <h1>DELIVER</h1>
         </div>
-        
       </div>
     </section>
   );
