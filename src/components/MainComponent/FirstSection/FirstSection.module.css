@@ -1,0 +1,27 @@
+.elementContainer{
+    padding: 7rem 3rem;
+}
+.imgElement{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.textContainer{
+    padding: 2rem;
+}
+.textContainer h1{
+    text-align: center;
+    font-family: var(--Title-Font);
+    font-weight: 300;
+    font-size: 3rem;
+    color: var(--Very-Dark-Gray);
+    margin: 3rem 0;
+}
+
+.textContainer p{
+    text-align: center;
+    font-family: var(--Paragraph-Font);
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--Dark-Gray);
+    margin: 0 auto;
+}

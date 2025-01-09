@@ -1,7 +1,7 @@
 .menuContainerOpen{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 999;
     top: 0;
     left: 0;
@@ -16,7 +16,7 @@
 .menuContainerClose{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 1;
     top: 0;
     left: 100%;
