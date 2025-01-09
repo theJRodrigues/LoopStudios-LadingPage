@@ -1,0 +1,44 @@
+.bgImg{
+    height: 100vh;
+    background: url(../../images/mobile/image-hero.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem;
+}
+
+.textContainer{
+    height: 70%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.textContainer div{
+    padding: 2.5rem;
+    width: 100%;
+    border: 2px solid white;
+    line-height: 0.9;
+}
+
+.textContainer h1{
+    font-family: var(--Title-Font);
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+}
+
+
+
+
+
+

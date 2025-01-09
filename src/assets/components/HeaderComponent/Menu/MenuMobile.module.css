@@ -1,0 +1,35 @@
+.menuContainerOpen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding: 4rem 3rem;
+    transition: 0.5s;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.menuContainerClose{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 100%;
+    padding: 4rem 3rem;
+    transition: 0.5s;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.headerMenuOpen{
+    display: flex;
+    justify-content: space-between;
+}
+

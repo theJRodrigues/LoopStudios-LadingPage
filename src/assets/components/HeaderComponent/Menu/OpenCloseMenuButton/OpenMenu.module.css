@@ -1,0 +1,8 @@
+.buttonElement{
+    background-color: transparent;
+    border: none;
+}
+
+.buttonElement:active{
+    transform: scale(0.8);
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  min-height: 100vh;
+  font-size: 62.5%;
+}
+
+body{
+  overflow: hidden;
+}
+:root {
+  --Paragraph-Font: "Alata", serif;
+  --Title-Font: "Josefin Sans", serif;
+
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
