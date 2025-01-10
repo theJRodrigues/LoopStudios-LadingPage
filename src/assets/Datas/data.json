@@ -1,42 +1,42 @@
 [
   {
     "text": "DEEP EARTH",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-deep-earth.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-deep-earth.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-deep-earth.jpg?raw=true"
   },
   {
     "text": "NIGHT ARCADE",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-night-arcade.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-night-arcade.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-night-arcade.jpg?raw=true"
   },
   {
     "text": "SOCCER TEAM VR",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-soccer-team.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-soccer-team.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-soccer-team.jpg?raw=true"
   },
   {
     "text": "THE GRID",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-grid.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-grid.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-grid.jpg?raw=true"
   },
   {
     "text": "FROM UP ABOVE VR",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-from-above.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-from-above.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-from-above.jpg?raw=true"
   },
   {
     "text": "POCKET BOREALS",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-pocket-borealis.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-pocket-borealis.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-pocket-borealis.jpg?raw=true"
   },
   {
     "text": "THE CURIOSITY",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-curiosity.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-curiosity.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-curiosity.jpg?raw=true"
   },
   {
     "text": "MAKE IT FISHEYE",
-    "imageMobile": "http://localhost:5173/LoopStudios-LadingPage/assets/images/mobile/image-fisheye.jpg",
-    "imageDesktop": "http://localhost:5173/LoopStudios-LadingPage/assets/images/desktop/image-deep-earth.jpg"
+    "imageMobile": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/mobile/image-fisheye.jpg?raw=true",
+    "imageDesktop": "https://github.com/theJRodrigues/LoopStudios-LadingPage/blob/main/src/assets/images/desktop/image-fisheye.jpg?raw=true"
   }
 ]
