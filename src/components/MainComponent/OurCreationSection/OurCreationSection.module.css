@@ -1,0 +1,17 @@
+.container{
+    padding: 0 3rem 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container > h1{
+    font-family: var(--Title-Font);
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

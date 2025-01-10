@@ -4,17 +4,15 @@ import MenuMobile from "./Menu/MenuMobile/MenuMobile";
 import styles from './Header.module.css'
 import logo from "../../assets/images/logo.svg";
 import { useState } from "react";
+import CheckResolution from "../CheckResolution/CheckResolution";
 
 const Header = () => {
-  const checkResolution = () => (window.innerWidth <= 810 ? true : false)
-  const [windowResolution, setResolution] = useState(checkResolution)
-  window.addEventListener('resize', () => setResolution(checkResolution))
 
   return (
     <section className={styles.bgImg}>
       <header className={styles.Header}>
         <a href="/"><img className={styles.imgLogo} src={logo} alt="logo" /></a>
-        {windowResolution ? <MenuMobile /> : <MenuDesktop />}
+        {CheckResolution() ? <MenuMobile /> : <MenuDesktop />}
       </header>
 
       <div className={styles.textContainer}>

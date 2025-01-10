@@ -1,0 +1,28 @@
+.card{
+    position: relative;
+    width: 100%;
+}
+
+.imgCard{
+    width: 100%;
+    border-radius: 3px;
+}
+.titleContainer{
+    position: absolute;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 98%;
+    height: 98%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.556442645417542) 0%, rgba(138,138,138,0) 63%);
+}
+.titleCard{
+    position: relative;
+    width: 11rem;
+    top: 50%;
+    left: 5%;
+    font-family: var(--Title-Font);
+    font-weight: 300;
+    color: white;
+}

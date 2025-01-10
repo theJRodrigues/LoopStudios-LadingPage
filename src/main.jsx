@@ -10,4 +10,8 @@ createRoot(document.getElementById("root")).render(
     <Header />
     <MainSection />
   </StrictMode>
+  
+    
+    
+ 
 );
