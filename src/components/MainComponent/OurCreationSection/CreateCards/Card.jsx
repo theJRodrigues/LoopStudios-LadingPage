@@ -8,7 +8,7 @@ const Card = () => {
   const CheckResolutionForImage = CheckResolution();
   const [cardInfos, setInfos] = useState([]);
   useEffect(() => {
-    fetch("../../../../assets/Datas/data.json")
+    fetch("https://raw.githubusercontent.com/theJRodrigues/LoopStudios-LadingPage/refs/heads/main/src/assets/Datas/data.json")
       .then((res) => res.json())
       .then((infos) => {
         setInfos(infos)
