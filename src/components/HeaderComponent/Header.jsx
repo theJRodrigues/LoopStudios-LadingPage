@@ -1,18 +1,18 @@
 import React from "react";
 import MenuDesktop from "./Menu/MenuDesktop/MenuDesktop";
 import MenuMobile from "./Menu/MenuMobile/MenuMobile";
-import styles from './Header.module.css'
+import styles from "./Header.module.css";
 import logo from "../../assets/images/logo.svg";
-import { useState } from "react";
-import CheckResolution from "../CheckResolution/CheckResolution";
+import useIsMobile from "../../hooks/useIsMobile/CheckResolution";
 
 const Header = () => {
-
   return (
     <section className={styles.bgImg}>
       <header className={styles.Header}>
-        <a href="/"><img className={styles.imgLogo} src={logo} alt="logo" /></a>
-        {CheckResolution() ? <MenuMobile /> : <MenuDesktop />}
+        <a href="/">
+          <img className={styles.imgLogo} src={logo} alt="logo" />
+        </a>
+        {useIsMobile() ? <MenuMobile /> : <MenuDesktop />}
       </header>
 
       <div className={styles.textContainer}>

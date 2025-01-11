@@ -1,32 +1,36 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import CheckResolution from "../../../CheckResolution/CheckResolution";
 import { v4 as uuidv4 } from "uuid";
-import styles from './Card.module.css'
+import styles from "./Card.module.css";
+import ImgElement from "./CreateImgElement/imgElement";
+import axios from "axios";
 
 const Card = () => {
-  const CheckResolutionForImage = CheckResolution();
   const [cardInfos, setInfos] = useState([]);
+
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/theJRodrigues/LoopStudios-LadingPage/refs/heads/main/src/assets/Datas/data.json")
-      .then((res) => res.json())
-      .then((infos) => {
-        setInfos(infos)
-      });
+    axios.get("https://raw.githubusercontent.com/theJRodrigues/LoopStudios-LadingPage/refs/heads/main/src/assets/Datas/data.json").then((response) => setInfos(response.data))
+
+    // lixo
+    // fetch(
+    //   "https://raw.githubusercontent.com/theJRodrigues/LoopStudios-LadingPage/refs/heads/main/src/assets/Datas/data.json"
+    // )
+    //   .then((res) => res.json())
+    //   .then((infos) => {
+    //     setInfos(infos);
+    //   });
   }, []);
 
   return (
     <>
-       {cardInfos?.map((info) =>(
-          <div className={styles.card} key={uuidv4()}>
-            <img className={styles.imgCard} src={CheckResolutionForImage? info.imageMobile : info.imageDesktop}
-              alt={info.text}/>
-            <div className={styles.titleContainer}>
-              <h1 className={styles.titleCard}>{info.text}</h1>
-            </div>
-            
-          </div>))
-        }
+      {cardInfos?.map((info) => (
+        <div className={styles.card} key={uuidv4()}>
+          <ImgElement imgMobile ={info.imageMobile} imgDesktop ={info.imageDesktop}/>
+          <div className={styles.titleContainer}>
+            <h1 className={styles.titleCard}>{info.text}</h1>
+          </div>
+        </div>
+      ))}
     </>
   );
 };
