@@ -1,17 +1,32 @@
-.navbarContainer{
+.navBarHeader{
     display: flex;
     flex-direction: column;
-    list-style: none;
-    gap: 4.5rem;
+    gap: 5.5rem;
     margin: auto 0;
 }
 
-.menuOption a{
+.navBarHeader .menuOption a{
     font-family: var(--Title-Font);
+    text-transform:uppercase;
     text-decoration: none;
     font-size: 3rem;
     color: white;
     font-weight: 300;
+}
+
+.navBarFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+}
+
+
+.navBarFooter .menuOption a{
+    font-family: var(--Paragraph-Font);
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
 }
 
 @media (min-width: 810px){

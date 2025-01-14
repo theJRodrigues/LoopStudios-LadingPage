@@ -3,7 +3,7 @@ import logo from "../../../../assets/images/logo.svg";
 import { useState } from "react";
 import CloseMenuButton from '../OpenCloseMenuButton/CloseButton/CloseMenuButton';
 import OpenMenuButton from '../OpenCloseMenuButton/OpenButton/OpenMenuButton';
-import Navbar from '../Navbar/Navbar'
+import Navbar from "../../../Navbar/Navbar";
 import styles from "./MenuMobile.module.css";
 
 const MenuMobile = () => {
@@ -16,7 +16,7 @@ const MenuMobile = () => {
           <a href="/"><img src={logo} alt="logo" /></a>
           <CloseMenuButton setElementState={setMenuState} />
         </div>
-        <Navbar />
+        <Navbar NavbarFor="navBarHeader" />
       </div>
     </>
   );

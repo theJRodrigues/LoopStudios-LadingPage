@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../../../Navbar/Navbar'
 
 const MenuDesktop = () => {
   return (
-    <Navbar />
+    <Navbar NavbarFor="navBarHeader" />
   )
 }
 

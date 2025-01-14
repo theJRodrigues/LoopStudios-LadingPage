@@ -1,0 +1,25 @@
+.footerContainer
+{
+    background-color: black;
+    padding: 4rem;
+    text-align: center;
+}
+
+.imgLogo{
+    margin-bottom: 3rem;
+}
+
+.SocialIconsContainer{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.noCopyrightsSection{
+    font-family: var(--Paragraph-Font);
+    color: var(--Dark-Gray);
+    font-size: 1.5rem;
+}
+

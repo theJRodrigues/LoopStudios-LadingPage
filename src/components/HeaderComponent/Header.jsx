@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useState, useEffect} from "react";
 import MenuDesktop from "./Menu/MenuDesktop/MenuDesktop";
 import MenuMobile from "./Menu/MenuMobile/MenuMobile";
 import styles from "./Header.module.css";
@@ -6,9 +6,19 @@ import logo from "../../assets/images/logo.svg";
 import useIsMobile from "../../hooks/useIsMobile/CheckResolution";
 
 const Header = () => {
+  const [changeBGHeader, setChangeBG] = useState(false)
+
+  useEffect(() => {
+    function verifyScrollY(){
+      {window.scrollY > 100 ? setChangeBG(true) : setChangeBG(false)}
+    }
+
+    window.addEventListener('scroll', verifyScrollY)
+  }, [])
+
   return (
     <section className={styles.bgImg}>
-      <header className={styles.Header}>
+      <header className={`${styles.Header} ${changeBGHeader ? styles.HeaderChangeBG : ''}`} >
         <a href="/">
           <img className={styles.imgLogo} src={logo} alt="logo" />
         </a>
