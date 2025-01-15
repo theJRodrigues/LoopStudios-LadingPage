@@ -6,28 +6,27 @@
     background-size: cover;
     overflow: hidden;
 }
-
 .Header{
+    padding: 3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 888;
+    transition: 0.3s;
+}
+.ContainerCenterHeader{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 3rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    transition: 0.5s;
 }
 
 .HeaderChangeBG{
-    transition: 0.5s;
+    transition: 0.3s;
     background-color: black;
 }
 
 .textContainer{
-    height: 70%;
-    padding: 3rem;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,6 +47,49 @@
     color: white;
 }
 
+@media (min-width: 810px){
+    .bgImg{
+        height: 100vh;
+        background: url(../../assets/images/desktop/image-hero.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .ContainerCenterHeader{
+        display: flex;
+        justify-content: space-between;
+        max-width: 140rem;
+        margin: 0 auto;
+    }
+
+    .textContainer{
+        max-width: 145rem;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        
+    }
+    .textContainer div{
+        padding: 4rem;
+        max-width: fit-content;
+        border: 3px solid white;
+    }
+
+    .textContainer h1{
+        font-family: var(--Title-Font);
+        font-size: 7rem;
+        font-weight: 300;
+        color: white;
+    }
+
+    
+
+
+}
 
 
 

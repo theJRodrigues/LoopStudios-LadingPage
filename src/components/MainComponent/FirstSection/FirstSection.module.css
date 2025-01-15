@@ -25,3 +25,32 @@
     color: var(--Dark-Gray);
     margin: 0 auto;
 }
+
+@media (min-width: 810px){
+    .elementContainer{
+        display: flex;
+        max-width: 140rem;
+        margin: 10rem auto;
+        position: relative;
+    }
+    .imgElement{
+        width: 60%;
+    }
+
+    .textContainer{
+        background-color: white;
+        position: absolute;
+        padding: 6rem;
+        width: 45rem;
+        top: 40%;
+        left: 50%;
+    }
+
+    .textContainer h1{
+        text-align: start;
+    }
+
+    .textContainer p{
+        text-align: start;
+    }
+}

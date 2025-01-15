@@ -1,38 +1,78 @@
-.navBarHeader{
-    display: flex;
-    flex-direction: column;
-    gap: 5.5rem;
-    margin: auto 0;
+.navBarHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+  margin: auto 0;
 }
 
-.navBarHeader .menuOption a{
-    font-family: var(--Title-Font);
-    text-transform:uppercase;
+.navBarHeader .menuOption a {
+  font-family: var(--Title-Font);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+  font-weight: 300;
+}
+.underlined {
+  display: none;
+}
+.navBarFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navBarFooter .menuOption a {
+  font-family: var(--Paragraph-Font);
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: white;
+}
+
+@media (min-width: 810px) {
+  .navBarHeader {
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 5rem;
+  }
+
+  .underlined {
+    display: block;
+    width: 4rem;
+    margin: 0 auto;
+    height: 0.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    transform: scaleX(0);
+    transition: 0.2s;
+  }
+
+  .menuOption {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .menuOption:hover .underlined {
+    transform: scaleX(1);
+    transition: 0.2s;
+  }
+  .navBarHeader .menuOption a {
+    font-family: var(--Paragraph-Font);
+    text-transform: none;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 1.8rem;
     color: white;
     font-weight: 300;
-}
+  }
 
-.navBarFooter{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    list-style: none;
-}
-
-
-.navBarFooter .menuOption a{
-    font-family: var(--Paragraph-Font);
-    text-decoration: none;
-    font-size: 1.7rem;
-    color: white;
-}
-
-@media (min-width: 810px){
-    .navbarContainer{
-        flex-direction: row;
-        justify-content: space-around;
-        width: 50%;
-    }
+  .navBarFooter {
+    grid-column: 1;
+    grid-row: 2;
+    flex-direction: row;
+    gap: 4rem;
+  }
 }

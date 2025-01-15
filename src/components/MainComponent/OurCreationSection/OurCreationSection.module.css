@@ -1,8 +1,10 @@
 .container{
-    padding: 0 3rem 4rem 3rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
+    
 }
 .container > h1{
     font-family: var(--Title-Font);
@@ -10,8 +12,56 @@
     font-size: 3rem;
     margin-bottom: 3rem;
 }
+.buttonSeeAll{
+    order: 1;
+    border: 1px solid black;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: var(--Paragraph-Font);
+    letter-spacing: 3px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonSeeAll:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.buttonSeeAll:active{
+    transform: scale(0.9);
+}
 .cardContainer{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+}
+
+@media (min-width: 810px){
+    .container{
+        max-width: 140rem;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5rem;
+    }
+    .container > h1{
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+    .buttonSeeAll{
+        order: 0;
+        margin-left: auto;
+    }
+    .cardContainer{
+        grid-column: 1 / span 2;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 5rem;
+    }
 }

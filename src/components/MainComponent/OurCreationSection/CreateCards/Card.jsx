@@ -25,10 +25,12 @@ const Card = () => {
     <>
       {cardInfos?.map((info) => (
         <div className={styles.card} key={uuidv4()}>
-          <ImgElement imgMobile ={info.imageMobile} imgDesktop ={info.imageDesktop}/>
-          <div className={styles.titleContainer}>
-            <h1 className={styles.titleCard}>{info.text}</h1>
+          <div className={styles.imgContainer}>
+            <ImgElement imgMobile ={info.imageMobile} imgDesktop ={info.imageDesktop}/>
+            <div className={styles.bgGradient}></div>
           </div>
+
+          <h1 className={styles.titleCard}>{info.text}</h1>
         </div>
       ))}
     </>

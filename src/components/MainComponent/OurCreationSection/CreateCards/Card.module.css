@@ -1,24 +1,63 @@
-.card{
-    position: relative;
-    width: 100%;
+.card {
+  position: relative;
+  width: 100%;
+  z-index: 3;
 }
 
-.titleContainer{
-    position: absolute;
-    border-radius: 3px;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 98%;
-    height: 98%;
-    background: linear-gradient(90deg, rgba(0,0,0,0.556442645417542) 0%, rgba(138,138,138,0) 63%);
+.titleCard {
+  position: absolute;
+  width: 11rem;
+  top: 50%;
+  left: 5%;
+  z-index: 1;
+  font-family: var(--Title-Font);
+  font-weight: 300;
+  color: white;
 }
-.titleCard{
-    position: relative;
-    width: 11rem;
-    top: 50%;
-    left: 5%;
-    font-family: var(--Title-Font);
-    font-weight: 300;
-    color: white;
+
+.bgGradient {
+  position: absolute;
+  border-radius: 3px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.556442645417542) 0%,
+    rgba(138, 138, 138, 0) 63%
+  );
+}
+
+.imgContainer{
+  transition: 0.3s;
+}
+
+@media (min-width: 810px) {
+  .card:hover .imgContainer{
+    cursor: pointer;
+    filter: opacity(0.3) brightness(1.4);
+    transition: 0.3s;
+  }
+
+  .card:hover .titleCard{
+    cursor: pointer;
+    color: black;
+    font-weight: 350;
+  }
+  .titleCard {
+    top: 80%;
+    left: 10%;
+    width: 15rem;
+    font-size: 2.5rem;
+  }
+
+  .bgGradient{
+        background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.556442645417542) 0%,
+    rgba(138, 138, 138, 0) 63%
+  );
+}
 }

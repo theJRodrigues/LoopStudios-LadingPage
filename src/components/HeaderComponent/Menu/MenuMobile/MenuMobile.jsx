@@ -13,7 +13,7 @@ const MenuMobile = () => {
       <OpenMenuButton setElementState={setMenuState} />
       <div className={menuState ? styles.menuContainerOpen : styles.menuContainerClose}>
         <div className={styles.headerMenuOpen}>
-          <a href="/"><img src={logo} alt="logo" /></a>
+          <a href="#"><img src={logo} alt="logo" /></a>
           <CloseMenuButton setElementState={setMenuState} />
         </div>
         <Navbar NavbarFor="navBarHeader" />
