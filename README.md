@@ -6,4 +6,4 @@ A Landing Page está disponível no link abaixo
 <a href= "https://thejrodrigues.github.io/LoopStudios-LadingPage/">Landing Page - LoopStudios</a>
 
 # DESIGN MOBILE
-<img src="" alt= "design da landing page" />
+<img src="./desktop-preview.jpg" alt= "design da landing page" />
